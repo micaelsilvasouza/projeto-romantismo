@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+section#res_busca > div{
+    display: inline-block;
+}
+
+div.icon{
+    background: red no-repeat center center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border: none;
+    box-sizing: border-box;
+}
+
+div.icon:hover{
+    border: 2px solid rgb(177, 19, 19);
+}
+
+section#perfil{
+    display: none;
+}
+
+section#perfil > img{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: auto;
+}
