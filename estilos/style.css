@@ -4,7 +4,7 @@ section#res_busca > div{
     display: inline-block;
 }
 
-div.icon{
+button.icon{
     background: red no-repeat center center;
     background-size: cover;
     width: 100px;
@@ -13,7 +13,7 @@ div.icon{
     box-sizing: border-box;
 }
 
-div.icon:hover{
+button.icon:hover{
     border: 2px solid rgb(177, 19, 19);
 }
 
