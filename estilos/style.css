@@ -1,9 +1,24 @@
 @charset "UTF-8";
-
+*{
+    margin: 0px;
+    padding: 0px;
+}
 section#res_busca > div{
     display: inline-block;
 }
 
+h1#cabecalho{
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    font-variant: small-caps;
+    background-color: rgb(247, 131, 150);
+    color: white;
+    height: 100px;
+    margin-bottom: 30px;
+    padding: 10px;
+    position: fixed;
+}
 button.icon{
     background: red no-repeat center center;
     background-size: cover;
